@@ -1,0 +1,13 @@
+[Desktop Entry]
+
+Version=1.0
+Type=Application
+Name=MATLAB R2022a
+Comment=A high-level language for numerical computation and visualization.
+Exec=matlab -desktop
+Icon=matlab
+Terminal=false
+StartupNotify=false
+Categories=Development;
+MimeType=text/x-matlab;
+
