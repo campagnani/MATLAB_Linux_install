@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e #Qualquer erro cancele o script
-
 clear
 echo "####################################################################################"
 echo "##										##"
@@ -43,6 +41,7 @@ echo ""
 echo "--> Montando ISO como CD-ROM em /mnt/cdrom/"
 echo ""
 sudo mkdir /mnt/cdrom
+set -e #Qualquer erro cancele o script
 sudo mount R2022a_Linux.iso /mnt/cdrom -o loop
 echo ""
 echo "--> Executando Instalador como administrador"
