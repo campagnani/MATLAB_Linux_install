@@ -21,6 +21,20 @@ echo "50874-33247-14209-37962-45495-25133-28159-33348-18070-60881-29843-35694-31
 echo ""
 echo "Quando você será solicitado a 'Selecionar arquivo de licença', selecione o arquivo 'license_standalone.lic' que será baixado na pasta que esse instalador está sendo executado"
 echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
 
 echo "--> Baixando arquivo de licença"
 echo ""
@@ -28,7 +42,8 @@ wget https://github.com/campagnani/MATLAB_Linux_install/raw/main/Crack/R2022a/li
 echo ""
 echo "--> Montando ISO como CD-ROM em /mnt/cdrom/"
 echo ""
-sudo mount ./R2022a_Linux.iso /mnt/cdrom/
+sudo mkdir /mnt/cdrom
+sudo mount R2022a_Linux.iso /mnt/cdrom -o loop
 echo ""
 echo "--> Executando Instalador como administrador"
 echo ""
